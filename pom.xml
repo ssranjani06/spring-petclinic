@@ -352,5 +352,16 @@
       </build>
     </profile>
   </profiles>
-
+<distributionManagement>
+		<repository>
+			<id>coit-backend1-ranjani-release</id>
+			<name>coit-backend1-ranjani-release</name>
+			<url>http://52.66.210.46:8081/repository/coit-backend1-ranjani-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>coit-backend-ranjani-snapshot</id>
+			<name>coit-backend-ranjani-snapshot</name>
+			<url>http://52.66.210.46:8081/repository/coit-backend-ranjani-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
